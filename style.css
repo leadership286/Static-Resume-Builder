@@ -1,0 +1,100 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0; 
+    padding: 0;
+    background: url(back.jpg) no-repeat;
+    
+    
+}
+
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 50px;
+    border: 5px solid #0f3cb9;
+    border-radius: 10px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 25px;
+
+    
+}
+
+
+h1 {
+    color: #020001;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+h2 {
+    color: #020001;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 45px;
+    margin-top: 10px;
+}
+h3, h4 ,h5{
+    color: #020001;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 45px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+
+
+p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+section {
+    margin: 10px 0;
+}
+#skills{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: #020001;
+}
+
+ul {
+    list-style-type: decimal;
+    padding: 0;
+    font-weight: bold;
+}
+
+button {
+    display:block;
+    margin: 20px auto;
+    padding: 10px 15px;
+    background-color: #1fdd94;
+    color: rgb(26, 2, 2);
+    border:blue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f13939;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    img {
+        width: 100px;
+    }
+}
